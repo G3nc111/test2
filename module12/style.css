@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Better Milk';
+    src: url("fonts/Bettermilk.ttf");
+}
+
+
+
+
+h1{
+    color: green !important;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    text-decoration: none;
+    font-family: 'Better Milk';
+}
+
+
+p{
+    text-indent: 50px;
+    text-align: center;
+    font-family:monospace;
+}
+
+h2{
+    text-decoration: overline;
+    text-transform: uppercase;
+    writing-mode: horizontal-tb;
+}
+
+h3{
+    text-decoration: line-through;
+    text-transform: lowercase;
+    writing-mode: vertical-rl;
+}
+
+h4{
+    text-decoration: underline;
+    text-shadow:10px;
+    writing-mode: vertical-lr;
+}
+
+img{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+#normalText{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#italicText{
+    font-style:italic ;
+    font-weight: 800;
+}
+
+#obliqueText{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.h1shat{
+    font-size: 20px;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color: firebrick;
+}
+
+a:active{
+    color: blue;
+}
