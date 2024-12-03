@@ -1,0 +1,27 @@
+[data-value]{
+    /*Attribute exists*/
+}
+
+[data-value="foo"]{
+    /*Attribute has this exact value */
+}
+
+[data-value*="foo"]{
+    /*Attribute value contains this val somewhere*/
+}
+
+[data-value~="foo"]{
+    /*Attribute has this value in space-separated*/
+}
+
+[data-value^="foo"]{
+    /*Attribute starts with this*/
+}
+
+[data-value|="foo"]{
+    /*Starts with space-separated*/
+}
+
+[data-value$="foo"]{
+    /*Attribute value ends with this*/
+}
