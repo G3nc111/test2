@@ -39,3 +39,39 @@ div.desc{
     display: inline-block;
     background-position: 0 0;
 }
+
+
+
+a[href="https://shkolladigjitale.com/"]{
+    color: blue;
+}
+
+
+p[class*="ds"]{
+    background: blue;
+    color: white;
+}
+
+
+div[id~="ds"]{
+    background: green;
+    color: black;
+}
+
+
+img[title^="dice"]{
+    border: 2px solid blue;
+}
+
+h1[class|=heading] {
+    background: purple;
+    color: white;
+}
+
+input[placeholder$="name"]{
+    border: 2px solid red;
+}
+
+input[readonly]{
+    border: 2px solid green;
+}
