@@ -1,0 +1,101 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: translate(100px,50px);
+}
+
+
+div#rotate{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: rotate(78deg);
+}
+
+
+div#scale{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:scale(1,1.5);
+}
+
+div#scaleX{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:scaleX(6);
+    margin-top: 500px;
+}
+
+
+div#scaleY{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:scaleY(1.2);
+}
+
+
+div#skewX{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:skewX(-40deg);
+}
+
+
+div#skewY{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:skewY(40deg);
+}
+
+
+
+div#rotateX{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:rotateX(140deg);
+}
+
+
+div#rotateY{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:rotateY(140deg);
+}
+
+
+div#rotateZ{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform:rotateZ(140deg);
+}
+
+

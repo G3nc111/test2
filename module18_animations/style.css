@@ -1,0 +1,10 @@
+/*
+animation-name: declares the name of the @keyframes at-rule to manipulate. ex: stretch
+animation-duration: the length of time it takes for an animation to complete one cycle. ex: 1.5s
+animation-timing-function: establishes preset acceleration curves such as ease or linear. ex: ease-out
+animation-delay: the time between the element being loaded and the start of the animation sequence. ex: 0s
+animation-direction: sets the direction of the animation after the cycle. Its default resets on each cycle. ex: alternate
+animation-iteration-count: the number of times the animation should be performed. ex: infinite
+animation-fill-mode: sets which values are applied before/after the animation. ex: none
+
+*/
