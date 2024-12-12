@@ -1,0 +1,81 @@
+/*
+FLEXBOX
+Flex Container -  Parent element
+Flex Items - Child elemt
+Main axis- X-axis Horizontal Main Start Main end
+Cross axis - Y-axis Vertical Cross Start Cross End
+*/
+
+
+.container{
+    display: flex;
+    background: #06206a;
+    flex-direction: row; /*row, row-reverse,column*/
+    flex-wrap: wrap-reverse; /*nowrap wrap*/
+    justify-content: space-evenly; /*flex-start, flex-end, center, space-between, space-around*/
+}
+
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container div:nth-child(1){
+    order:2;
+}
+
+.container div:nth-child(2){
+    order:3;
+}
+
+
+.container2{
+    display: flex;
+    background-color: #06206a;
+    flex-direction: row;
+}
+
+.container2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container2 div:nth-child(1){
+    flex-grow: 4;
+}
+
+
+
+.container3{
+    display: flex;
+    background-color: #06206a;
+    align-items: flex-end; /*stretch, baseline, flex-start, center*/
+    height: 200px;
+}
+
+.container3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+
+
+.container4{
+    display: flex;
+    background-color: #06206a;
+    align-content: flex-end; /*justify-content values*/
+    height: 200px;
+}
+
+.container4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
